@@ -333,7 +333,6 @@
 <Actor id="Korhal_Platform_TireMarks" Variations="0,2"/>
 <Actor id="Korhal_Platform_SkyshieldEmblem" Variations="2"/>
 <Actor id="DOM_Crate" Variations="1,3"/>
-<Actor id="DOM_BaseMonitors" Variations="2"/>
 <Actor id="DOM_Decals" Variations="0,12"/>
 <Actor id="DOM_GroundTrims" Variations="0,4,6"/>
 <Actor id="DOM_Groundlights" Variations="0"/>
