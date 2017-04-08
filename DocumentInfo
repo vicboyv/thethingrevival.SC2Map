@@ -340,6 +340,7 @@
             <Value>0.288</Value>
             <Value>0.289</Value>
             <Value>0.290</Value>
+            <Value>0.291</Value>
         </Version>
         <Date>
             <Value>10/15/2012</Value>
@@ -623,6 +624,7 @@
             <Value>4/24/2016</Value>
             <Value>4/24/2016</Value>
             <Value>4/7/2017</Value>
+            <Value>4/8/2017</Value>
         </Date>
         <Notes>
             <Value>1,2</Value>
@@ -906,6 +908,7 @@
             <Value>1071</Value>
             <Value>1073</Value>
             <Value>1072,1074,1075</Value>
+            <Value>1076</Value>
         </Notes>
     </PatchNote>
     <Preload>

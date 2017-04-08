@@ -410,6 +410,7 @@ DocInfo/PatchNote1072=Clicking the Minimap no longer removes camera lock.
 DocInfo/PatchNote1073=hotfix
 DocInfo/PatchNote1074=Edited the Hook ability tooltip.
 DocInfo/PatchNote1075=Tweaked Ragnov doodads for a better micro experience.
+DocInfo/PatchNote1076=-During spectate, camera is now able to roam around the map.
 DocInfo/PatchNote108=Attempted to fix Preview not working.
 DocInfo/PatchNote109=Removed collision for radio items.
 DocInfo/PatchNote110=Crude fix on Thing not being able to transform anymore.

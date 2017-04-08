@@ -17454,6 +17454,7 @@ bool gt_MarineDIES_Func (bool testConds, bool runActions) {
     DialogControlSetVisible(gv_deadAliveChatItem, PlayerGroupSingle(EventPlayer()), false);
     DialogControlSetVisible(gv_deadAliveChatOnlineItem, PlayerGroupSingle(EventPlayer()), false);
     CameraFollowUnitGroup(UnitGetOwner(EventUnit()), libNtve_gf_ConvertUnitToUnitGroup(EventUnit()), false, false);
+    CameraLockInput(UnitGetOwner(EventUnit()), false);
     UnitGroupLoopBegin(UnitGroup(null, c_playerAny, RegionCircle(UnitGetPosition(EventUnit()), 0.5), UnitFilter((1 << c_targetFilterItem), 0, (1 << c_targetFilterMissile), (1 << (c_targetFilterDead - 32))), 0));
     for ( ; !UnitGroupLoopDone() ; UnitGroupLoopStep() ) {
         UnitSetPosition(UnitGroupLoopCurrent(), gf_FindProperRandomPointforSpawninRegion(RegionCircle(UnitGetPosition(EventUnit()), 1.0)), false);
@@ -17536,6 +17537,7 @@ bool gt_TheThingDIES_Func (bool testConds, bool runActions) {
     SoundPlay(SoundLink("Corruptor_Death", -1), PlayerGroupAll(), 100.0, 0.0);
     VisEnable(c_visTypeFog, false);
     VisEnable(c_visTypeMask, false);
+    CameraLockInput(UnitGetOwner(EventUnit()), false);
     PlayerGroupLoopBegin(gv_playing);
     for ( ; !PlayerGroupLoopDone() ; PlayerGroupLoopStep() ) {
         CameraFollowUnitGroup(PlayerGroupLoopCurrent(), libNtve_gf_ConvertUnitToUnitGroup(gv_unit[PlayerGroupLoopCurrent()]), false, false);
