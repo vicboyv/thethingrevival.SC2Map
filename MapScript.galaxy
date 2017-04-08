@@ -9446,7 +9446,7 @@ bool gt_InitialIntro_Func (bool testConds, bool runActions) {
         CameraPan(PlayerGroupLoopCurrent(), UnitGetPosition(gv_unit[PlayerGroupLoopCurrent()]), 0.0, -1, 10, false);
         CameraFollowUnitGroup(PlayerGroupLoopCurrent(), libNtve_gf_ConvertUnitToUnitGroup(gv_unit[PlayerGroupLoopCurrent()]), true, false);
         CameraSetValue(PlayerGroupLoopCurrent(), c_cameraValueDistance, 10.0, 0.0, -1, 10);
-        CameraSetValue(PlayerGroupLoopCurrent(), c_cameraValueDistance, 25.0, 10.0, -1, 10);
+        CameraSetValue(PlayerGroupLoopCurrent(), c_cameraValueDistance, 32.0, 10.0, -1, 10);
         CameraSetValue(PlayerGroupLoopCurrent(), c_cameraValueFieldOfView, 50.0, 10.0, -1, 10);
         CameraLockInput(PlayerGroupLoopCurrent(), true);
     }
