@@ -1,222 +1,224 @@
 <?xml version="1.0" encoding="utf-8"?>
 <PlacedObjects Version="27">
-    <ObjectUnit Id="6" Position="19,87,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="6" Position="19,87,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="8" Position="101,33,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="11" Position="15,41,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="11" Position="15,41,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="12" Position="31,43,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="12" Position="31,43,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="15" Position="113,37,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="15" Position="113,37,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="195" Position="159,68,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="195" Position="159,68,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="297" Position="169,203,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="589" Position="161,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="297" Position="169,203,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="589" Position="161,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="590" Position="175,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="591" Position="175,117,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="592" Position="187,117,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="593" Position="187,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="594" Position="199,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="595" Position="199,117,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="596" Position="211,117,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="597" Position="211,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="599" Position="237,83,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="590" Position="175,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="591" Position="175,117,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="592" Position="187,117,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="593" Position="187,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="594" Position="199,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="595" Position="199,117,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="596" Position="211,117,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="597" Position="211,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="599" Position="237,83,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="600" Position="245,57,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="601" Position="193,27,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="600" Position="245,57,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="601" Position="193,27,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="603" Position="141,23,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="604" Position="183,57,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="603" Position="141,23,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="604" Position="183,57,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="606" Position="183,85,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="606" Position="183,85,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="607" Position="143,43,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="607" Position="143,43,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="608" Position="149,91,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="608" Position="149,91,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="632" Position="51,223,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="659" Position="69,134,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="723" Position="169,229,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="726" Position="155,181,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="632" Position="51,223,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="659" Position="69,134,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="723" Position="169,229,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="726" Position="155,181,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="754" Position="183,229,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="760" Position="211,91,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="754" Position="183,229,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="760" Position="211,91,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="761" Position="199,91,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="761" Position="199,91,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="774" Position="203,43,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="821" Position="169,213,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="822" Position="169,193,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="821" Position="169,213,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="822" Position="169,193,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="823" Position="181,193,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="824" Position="183,211,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="915" Position="175,181,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="823" Position="181,193,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="824" Position="183,211,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="915" Position="175,181,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="952" Position="225,163,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="952" Position="225,163,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1112" Position="229,233,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="1113" Position="237,215,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="1115" Position="227,201,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="1116" Position="231,187,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="1177" Position="35,85,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="1112" Position="229,233,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1113" Position="237,215,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1115" Position="227,201,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1116" Position="231,187,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1177" Position="35,85,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1178" Position="37,97,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="1178" Position="37,97,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1183" Position="111,89,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="1183" Position="111,89,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1217" Position="39,213,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="1218" Position="39,233,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="1285" Position="61,191,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="1286" Position="63,209,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="1217" Position="39,213,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1291" Position="111,159,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="1292" Position="87,165,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="1562" Position="69,26,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="1218" Position="39,233,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1285" Position="61,191,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1286" Position="63,209,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1564" Position="59,26,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="1291" Position="111,159,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1292" Position="87,165,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1562" Position="69,26,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="2018" Position="155,165,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="1564" Position="59,26,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="2076" Position="105,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="2018" Position="155,165,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="3468" Position="237,203,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal"/>
-    <ObjectUnit Id="4308" Position="223,79,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="2076" Position="105,101,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="4309" Position="223,105,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="3468" Position="237,203,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="4308" Position="223,79,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="4318" Position="183,17,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal">
+    <ObjectUnit Id="4309" Position="223,105,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="7" Position="29,93,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="4318" Position="183,17,0" Rotation="4.7121" Scale="1,1,1" UnitType="DestructibleGateStraightHorizontal" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="9" Position="97,29,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="7" Position="29,93,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="10" Position="51,43,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="9" Position="97,29,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="13" Position="27,47,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="10" Position="51,43,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="14" Position="95,47,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="13" Position="27,47,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="16" Position="109,27,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="14" Position="95,47,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="400" Position="46,31,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="16" Position="109,27,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="401" Position="161,189,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="400" Position="46,31,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="517" Position="99,13,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="401" Position="161,189,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="609" Position="173,39,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="517" Position="99,13,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="610" Position="217,39,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="609" Position="173,39,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="612" Position="237,109,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="610" Position="217,39,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
+        <Flag Index="ForcePlacement" Value="1"/>
+    </ObjectUnit>
+    <ObjectUnit Id="612" Position="237,109,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="614" Position="143,121,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="617" Position="233,9,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="618" Position="227,21,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="626" Position="23,225,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
+    <ObjectUnit Id="617" Position="233,9,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="618" Position="227,21,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="626" Position="23,225,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
     <ObjectUnit Id="627" Position="27,233,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="628" Position="43,227,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="629" Position="43,219,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="697" Position="161,159,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="628" Position="43,227,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="629" Position="43,219,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="697" Position="161,159,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="718" Position="205,221,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="719" Position="189,205,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="718" Position="205,221,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="719" Position="189,205,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="720" Position="189,221,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="762" Position="197,71,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="720" Position="189,221,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="762" Position="197,71,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="919" Position="161,221,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="1065" Position="197,39,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="1065" Position="197,39,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1179" Position="25,105,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="1179" Position="25,105,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1180" Position="45,107,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="1180" Position="45,107,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1181" Position="55,91,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="1181" Position="55,91,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1182" Position="93,107,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="1182" Position="93,107,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1287" Position="55,229,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="1288" Position="69,221,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="1289" Position="81,231,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="1290" Position="103,151,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical"/>
-    <ObjectUnit Id="2002" Position="25,77,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="1287" Position="55,229,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1288" Position="69,221,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1289" Position="81,231,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="1290" Position="103,151,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField"/>
+    <ObjectUnit Id="2002" Position="25,77,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="2003" Position="221,157,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="2003" Position="221,157,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="3340" Position="67,203,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="3340" Position="67,203,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="3474" Position="229,157,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="3474" Position="229,157,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="4307" Position="153,39,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="4307" Position="153,39,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="4474" Position="161,13,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="4474" Position="161,13,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectUnit Id="4653" Position="215,97,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
-    <ObjectUnit Id="1928539076" Position="231,39,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical">
+    <ObjectUnit Id="1928539076" Position="231,39,0" Rotation="3.1413" Scale="1,1,1" UnitType="DestructibleGateStraightVertical" Footprint="Footprint3x3ForceField">
         <Flag Index="ForcePlacement" Value="1"/>
     </ObjectUnit>
     <ObjectDoodad Id="17" Position="170.3691,112.976,8.4777" Scale="0.3498,0.75,0.3498" Type="ActorShapeSphere">
@@ -21027,14 +21029,14 @@
     <ObjectPoint Id="1775" Position="184.4462,23.163,0" Scale="1,1,1" Type="Normal" Name="Ragnov Function Backup Generator" Color="0,0,0,0"/>
     <ObjectPoint Id="1776" Position="220.888,111.1066,0" Scale="1,1,1" Type="Normal" Name="Ragnov Function Communications" Color="0,0,0,0"/>
     <ObjectPoint Id="1777" Position="223.9323,47.7116,0" Scale="1,1,1" Type="Normal" Name="Ragnov Function Beacon" Color="0,0,0,0"/>
-    <ObjectCamera Id="148" Position="241.2426,50.4147,0" Rotation="0.7888" Scale="1,1,1" Name="Camera 002" Color="0,0,0,0" CameraTarget="241.2426,50.4147">
+    <ObjectCamera Id="148" Position="241.2426,50.4147,0" Rotation="0.7885" Scale="1,1,1" Name="Camera 002" Color="0,0,0,0" CameraTarget="241.2426,50.4147">
         <CameraValue Index="FieldOfView" Value="27.7998"/>
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="40000"/>
         <CameraValue Index="ShadowClip" Value="300"/>
         <CameraValue Index="Distance" Value="1.2097"/>
         <CameraValue Index="Pitch" Value="0.374"/>
-        <CameraValue Index="Yaw" Value="45.2097"/>
+        <CameraValue Index="Yaw" Value="45.1958"/>
         <CameraValue Index="HeightOffset" Value="-0.8901"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffEnd" Value="8"/>
@@ -21061,9 +21063,9 @@
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="40000"/>
         <CameraValue Index="ShadowClip" Value="300"/>
-        <CameraValue Index="Distance" Value="6.7202"/>
-        <CameraValue Index="Pitch" Value="19.5588"/>
-        <CameraValue Index="Yaw" Value="157.229"/>
+        <CameraValue Index="Distance" Value="6.72"/>
+        <CameraValue Index="Pitch" Value="19.5583"/>
+        <CameraValue Index="Yaw" Value="157.2285"/>
         <CameraValue Index="HeightOffset" Value="0.7287"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffStart" Value="0.0002"/>
