@@ -22,7 +22,7 @@
     </CBehaviorBuff>
     <CBehaviorBuff id="BasicMarineBehavior">
         <EditorCategories value="AbilityorEffectType:Units"/>
-        <Modification RadarFilters="-;Structure,Item">
+        <Modification RadarFilters="-;Structure,Item,Buried">
             <WeaponArray/>
             <WeaponDisableArray value="SJBattlecruiser"/>
         </Modification>
@@ -359,10 +359,6 @@
         <Duration value="5"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="MeatHook">
-        <Cost>
-            <Charge Link="Behavior/##id##"/>
-            <Cooldown Link="Behavior/##id##"/>
-        </Cost>
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Duration value="0.125"/>
         <InitialEffect value="MeatHookDamage"/>
@@ -374,11 +370,5 @@
                 </Cost>
             </DeathResponse>
         </Modification>
-        <DamageResponse>
-            <Cost>
-                <Charge Link="Behavior/##id##"/>
-                <Cooldown Link="Behavior/##id##"/>
-            </Cost>
-        </DamageResponse>
     </CBehaviorBuff>
 </Catalog>
