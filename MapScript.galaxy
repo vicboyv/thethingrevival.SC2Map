@@ -8408,7 +8408,7 @@ bool auto_gf_LastStandFrenzy_TriggerFunc (bool testConds, bool runActions) {
 
     // Implementation
     while (true) {
-        if ((PlayerGroupCount(gv_marines) == 1)) {
+        if ((PlayerGroupCount(gv_marines) > 1)) {
             if ((DistanceBetweenPoints(UnitGetPosition(gv_unit[PlayerGroupPlayer(gv_marines, 1)]), UnitGetPosition(gv_unit[lp_thingPlayer])) < 16.0)) {
                 TechTreeBehaviorAllow(lp_thingPlayer, "Frenzy2", false);
             }
