@@ -162,12 +162,12 @@
     <CUnit id="InfestedAbomination">
         <LifeStart value="180"/>
         <LifeMax value="180"/>
-        <LifeRegenDelay value="5"/>
-        <LifeRegenRate value="1.75"/>
-        <EnergyStart value="600"/>
-        <EnergyMax value="600"/>
-        <EnergyRegenDelay value="5"/>
-        <EnergyRegenRate value="12"/>
+        <LifeRegenDelay value="7.5"/>
+        <LifeRegenRate value="1.5"/>
+        <EnergyStart value="800"/>
+        <EnergyMax value="800"/>
+        <EnergyRegenDelay value="7.5"/>
+        <EnergyRegenRate value="14"/>
         <Speed value="2.6992"/>
         <Sight value="13"/>
         <AbilArray Link="QueenBuild2"/>
@@ -187,7 +187,6 @@
         <AbilArray Link="QueenBuild2210"/>
         <AbilArray Link="Throw"/>
         <AbilArray Link="ThingConsume"/>
-        <AbilArray Link="Yoink"/>
         <AbilArray Link="MeatHook"/>
         <BehaviorArray Link="TheThingSensory"/>
         <BehaviorArray Link="Oxygendamage"/>
@@ -201,7 +200,6 @@
             <LayoutButtons index="5" Face="InfestedAbomination22" Type="Submenu" AbilCmd="move,HoldPos" SubmenuCardId="0003" SubmenuFullSubCmdValidation="1"/>
             <LayoutButtons index="6" Face="Throw" Type="AbilCmd" AbilCmd="Throw,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="PrimalConsume" Type="AbilCmd" AbilCmd="ThingConsume,Execute" Row="1" Column="0"/>
-            <LayoutButtons Face="FaceEmbrace" Type="AbilCmd" AbilCmd="Yoink,Execute" Row="2" Column="1"/>
             <LayoutButtons Face="MeatHook" Type="AbilCmd" AbilCmd="MeatHook,Execute" Row="2" Column="2"/>
         </CardLayouts>
         <CardLayouts CardId="0002">
@@ -258,8 +256,8 @@
         <LifeMax value="300"/>
         <LifeRegenDelay value="0.5"/>
         <LifeRegenRate value="1.5"/>
-        <EnergyStart value="600"/>
-        <EnergyMax value="600"/>
+        <EnergyStart value="800"/>
+        <EnergyMax value="800"/>
         <EnergyRegenRate value="-10"/>
         <Speed value="1.1992"/>
         <Acceleration value="3"/>

@@ -3031,7 +3031,7 @@ void gf_ConvertMarinetoThingforPlayer (int lp_player) {
     RegionAttachToUnit(gv_proximityRegion[lp_player], gv_unit[lp_player], Point(0.0, 0.0));
     PlayerGroupAdd(gv_things, lp_player);
     PlayerGroupRemove(gv_marines, lp_player);
-    gv_theThingMaxLife = (gv_theThingMaxLife * (1.0 + (0.16 * IntToFixed(PlayerGroupCount(gv_marines)))));
+    gv_theThingMaxLife = (gv_theThingMaxLife * (1.0 + (0.13 * IntToFixed(PlayerGroupCount(gv_marines)))));
     gv_lastConsumedPlayer = lp_player;
     gv_lastUsedColorPlayer = lp_player;
     TechTreeBehaviorAllow(lp_player, "Frenzy2", false);

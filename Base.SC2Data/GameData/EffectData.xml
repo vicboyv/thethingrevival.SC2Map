@@ -257,7 +257,7 @@
         <ValidatorArray value="noMarkers"/>
         <EditorCategories value="Race:Terran"/>
         <AttributeBonus index="Armored" value="-2"/>
-        <AttributeBonus index="Biological" value="3"/>
+        <AttributeBonus index="Biological" value="6"/>
         <Kind value="Ranged"/>
         <KindSplash value="Splash"/>
         <Amount value="2"/>
@@ -537,7 +537,7 @@
         <ValidatorArray value="Nooxygen"/>
         <EditorCategories value=""/>
         <ImpactLocation Value="SourceUnit"/>
-        <Amount value="1"/>
+        <Amount value="0.75"/>
         <Death value="Silentkill"/>
     </CEffectDamage>
     <CEffectEnumArea id="MarauderSlowAOE">
@@ -581,7 +581,7 @@
         <DrainResourceCostFactor index="Vespene" value="0"/>
         <DrainResourceCostFactor index="Terrazine" value="0"/>
         <DrainResourceCostFactor index="Custom" value="0"/>
-        <RechargeVitalRate value="10"/>
+        <RechargeVitalRate value="25"/>
     </CEffectCreateHealer>
     <CEffectDamage id="Sheep">
         <Death value="Disintegrate"/>
