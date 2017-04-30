@@ -8406,18 +8406,27 @@ void gf_LastStandFrenzy (int lp_thingPlayer) {
 bool auto_gf_LastStandFrenzy_TriggerFunc (bool testConds, bool runActions) {
     int lp_thingPlayer = auto_gf_LastStandFrenzy_lp_thingPlayer;
 
+    playergroup auto34C67935_g;
+    int auto34C67935_p;
+
+    // Variable Declarations
+    int lv_pickedplayer;
+
+    // Variable Initialization
+
     // Implementation
     while (true) {
-        if ((PlayerGroupCount(gv_marines) > 1)) {
-            if ((DistanceBetweenPoints(UnitGetPosition(gv_unit[PlayerGroupPlayer(gv_marines, 1)]), UnitGetPosition(gv_unit[lp_thingPlayer])) < 16.0)) {
+        auto34C67935_g = gv_marines; 
+        auto34C67935_p = 1;
+        for ( ; auto34C67935_p <= PlayerGroupCount(auto34C67935_g) ; auto34C67935_p += BoolToInt(lv_pickedplayer == PlayerGroupPlayer(auto34C67935_g, auto34C67935_p)) ) {
+            lv_pickedplayer = PlayerGroupPlayer(auto34C67935_g, auto34C67935_p);
+            if ((DistanceBetweenPoints(UnitGetPosition(gv_unit[lv_pickedplayer]), UnitGetPosition(gv_unit[lp_thingPlayer])) < 16.0)) {
                 TechTreeBehaviorAllow(lp_thingPlayer, "Frenzy2", false);
+                break;
             }
             else {
                 TechTreeBehaviorAllow(lp_thingPlayer, "Frenzy2", true);
             }
-        }
-        else {
-            TechTreeBehaviorAllow(lp_thingPlayer, "Frenzy2", false);
         }
         Wait(0.5, c_timeGame);
     }

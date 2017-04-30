@@ -306,10 +306,10 @@
         <BehaviorArray Link="TheThingSensory2"/>
         <BehaviorArray Link="Oxygendamage"/>
         <CardLayouts index="0">
-            <LayoutButtons index="2" Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="3"/>
-            <LayoutButtons index="3" Face="Stim" Type="AbilCmd" AbilCmd="Stimpack,Execute" Row="2" Column="0"/>
-            <LayoutButtons index="4" Face="InfestedAbomination2222" Type="AbilCmd" AbilCmd="LockDoor,Execute" Row="1" Column="0"/>
-            <LayoutButtons index="5" Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons index="2" Face="Attack" AbilCmd="attack,Execute" Column="3"/>
+            <LayoutButtons index="3" Face="Stim" AbilCmd="Stimpack,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="4" Face="InfestedAbomination2222" AbilCmd="LockDoor,Execute" Row="1" Column="0"/>
+            <LayoutButtons index="5" Face="MoveHoldPosition" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="ActivateFlamethrower" Type="AbilCmd" AbilCmd="ToggleFlamethrower,On" Row="1" Column="1"/>
             <LayoutButtons Face="DeactivateFlamethrower" Type="AbilCmd" AbilCmd="ToggleFlamethrower,Off" Row="1" Column="1"/>
             <LayoutButtons Face="QuickDrop" Type="AbilCmd" AbilCmd="LockDoor2,Execute" Row="2" Column="1"/>
@@ -318,7 +318,7 @@
     </CUnit>
     <CUnit id="Marine2" parent="Marine">
         <Name value="Unit/Name/Marine2"/>
-        <LifeRegenRate value="0.1015"/>
+        <LifeRegenRate value="0.1992"/>
         <AbilArray Link="LockDoor"/>
         <AbilArray Link="LockDoor2"/>
         <AbilArray Link="ToggleFlamethrower"/>
@@ -368,7 +368,7 @@
     </CUnit>
     <CUnit id="Marine3" parent="Marine">
         <Name value="Unit/Name/Marine3"/>
-        <LifeRegenRate value="0.1015"/>
+        <LifeRegenRate value="0.1992"/>
         <CardLayouts index="0">
             <LayoutButtons Face="DeactivateFlamethrower" Type="AbilCmd" AbilCmd="ToggleFlamethrower,Off" Row="1" Column="1"/>
             <LayoutButtons Face="ActivateFlamethrower" Type="AbilCmd" AbilCmd="ToggleFlamethrower,On" Row="1" Column="1"/>

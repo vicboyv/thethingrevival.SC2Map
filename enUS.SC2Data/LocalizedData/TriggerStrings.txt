@@ -1221,6 +1221,7 @@ Variable/Name/9018FA0D=ttttimer
 Variable/Name/901A66AF=loop
 Variable/Name/90A67D4D=PickedPlayer
 Variable/Name/90AFB8A2=pickedgrenade
+Variable/Name/90E72EBB=pickedplayer
 Variable/Name/911F0613=DialogWidth
 Variable/Name/917B1133=beaconregion
 Variable/Name/91BD81AC=Music

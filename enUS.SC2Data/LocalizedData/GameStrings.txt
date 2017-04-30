@@ -416,6 +416,8 @@ DocInfo/PatchNote1077=Fixed camera zoom.
 DocInfo/PatchNote1078=Tweaked door pathing to let players walk through the door.
 DocInfo/PatchNote1079=Nerfed Sixth Sense by excluding burrowed from detection.
 DocInfo/PatchNote108=Attempted to fix Preview not working.
+DocInfo/PatchNote1080=Buffed Thing by applying Frenzy at all times.
+DocInfo/PatchNote1081=Buffed Marines by doubling its health regeneration.
 DocInfo/PatchNote109=Removed collision for radio items.
 DocInfo/PatchNote110=Crude fix on Thing not being able to transform anymore.
 DocInfo/PatchNote111=Pressing Pause will auto-kick players.
@@ -1329,7 +1331,7 @@ Effect/Name/adrenalineused=adrenaline used
 Effect/Name/attackspeedbuff=attack speed buff
 Fuel=Fuel Station
 Generator=Power Generator
-LoadingScreen/TextBody=v0.290 ALPHA
+LoadingScreen/TextBody=v0.292 ALPHA
 LoadingScreen/Tip=This is not a noob-friendly game. <c val="FF0000">You Only Live Once. Run or Die. Cooperate or Die. In a world where anyone could be The Thing, who can you trust?</c> Please support us at: www.TheThingRevival.tk
 MapInfo/Player00/Name=Neutral
 MapInfo/Player01/Name=Player 1
