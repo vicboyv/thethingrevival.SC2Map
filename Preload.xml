@@ -307,6 +307,7 @@
 <Actor id="Korhal_TarmacSplat" Variations="0,1"/>
 <Actor id="Shadow_Tarmac_Splat" Variations="5,6"/>
 <Actor id="Korhal_Platform_GrimeSplats" Variations="0"/>
+<Actor id="JarbanMinor_MiningSupplies" Variations="3,4,6,7,8"/>
 <Actor id="DOM_VentTower" Variations="0"/>
 <Actor id="DecalSpace_Baked" Variations="7,18"/>
 <Actor id="GenericFire_Large"/>

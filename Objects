@@ -10173,6 +10173,11 @@
         <Flag Index="ForcePlacement" Value="1"/>
         <Flag Index="NoDoodadFootprint" Value="1"/>
     </ObjectDoodad>
+    <ObjectDoodad Id="210086472" Variation="8" Position="185.3957,177.0078,7.992" Scale="1,1,1" Type="JarbanMinor_MiningSupplies"/>
+    <ObjectDoodad Id="854228504" Variation="7" Position="182.5021,176.7658,7.938" Scale="1,1,1" Type="JarbanMinor_MiningSupplies"/>
+    <ObjectDoodad Id="961885639" Variation="3" Position="169.2954,177.2094,7.9255" Scale="1,1,1" Type="JarbanMinor_MiningSupplies"/>
+    <ObjectDoodad Id="1044443005" Variation="6" Position="167.1103,177.2072,7.9636" Scale="1,1,1" Type="JarbanMinor_MiningSupplies"/>
+    <ObjectDoodad Id="1693181051" Variation="4" Position="168.1364,176.139,7.9587" Scale="1,1,1" Type="JarbanMinor_MiningSupplies"/>
     <ObjectDoodad Id="3291" Variation="1" Position="251.2448,101.0666,7.9765" Rotation="0.4892" Scale="0.5,0.5,0.5" Type="JunkPileSpaceShips">
         <Flag Index="HeightOffset" Value="1"/>
         <Flag Index="HeightAbsolute" Value="1"/>
@@ -21029,14 +21034,14 @@
     <ObjectPoint Id="1775" Position="184.4462,23.163,0" Scale="1,1,1" Type="Normal" Name="Ragnov Function Backup Generator" Color="0,0,0,0"/>
     <ObjectPoint Id="1776" Position="220.888,111.1066,0" Scale="1,1,1" Type="Normal" Name="Ragnov Function Communications" Color="0,0,0,0"/>
     <ObjectPoint Id="1777" Position="223.9323,47.7116,0" Scale="1,1,1" Type="Normal" Name="Ragnov Function Beacon" Color="0,0,0,0"/>
-    <ObjectCamera Id="148" Position="241.2426,50.4147,0" Rotation="0.7885" Scale="1,1,1" Name="Camera 002" Color="0,0,0,0" CameraTarget="241.2426,50.4147">
+    <ObjectCamera Id="148" Position="241.2426,50.4147,0" Rotation="0.7883" Scale="1,1,1" Name="Camera 002" Color="0,0,0,0" CameraTarget="241.2426,50.4147">
         <CameraValue Index="FieldOfView" Value="27.7998"/>
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="40000"/>
         <CameraValue Index="ShadowClip" Value="300"/>
         <CameraValue Index="Distance" Value="1.2097"/>
         <CameraValue Index="Pitch" Value="0.374"/>
-        <CameraValue Index="Yaw" Value="45.1958"/>
+        <CameraValue Index="Yaw" Value="45.182"/>
         <CameraValue Index="HeightOffset" Value="-0.8901"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffEnd" Value="8"/>
@@ -21063,9 +21068,9 @@
         <CameraValue Index="NearClip" Value="0.0998"/>
         <CameraValue Index="FarClip" Value="40000"/>
         <CameraValue Index="ShadowClip" Value="300"/>
-        <CameraValue Index="Distance" Value="6.72"/>
-        <CameraValue Index="Pitch" Value="19.5583"/>
-        <CameraValue Index="Yaw" Value="157.2285"/>
+        <CameraValue Index="Distance" Value="6.7197"/>
+        <CameraValue Index="Pitch" Value="19.5578"/>
+        <CameraValue Index="Yaw" Value="157.228"/>
         <CameraValue Index="HeightOffset" Value="0.7287"/>
         <CameraValue Index="FocalDepth" Value="8"/>
         <CameraValue Index="FalloffStart" Value="0.0002"/>
