@@ -200,6 +200,7 @@
 <Actor id="CoolantTowerDoodad"/>
 <Actor id="Bodybag" Variations="1,2,3"/>
 <Actor id="KorhalFlag" Variations="0"/>
+<Actor id="DestroyedNydusWorm" Variations="1"/>
 <Actor id="CastanarMonitorLarge" Variations="1,2"/>
 <Actor id="CastanarStasisTubeLarge" Variations="2"/>
 <Actor id="AircraftAssembly" Variations="0"/>
@@ -214,7 +215,7 @@
 <Actor id="PipesSmallCorner" Variations="0"/>
 <Actor id="PipesSmallLong"/>
 <Actor id="PortZionGridFloorLiquidDoodad"/>
-<Actor id="ScientistCorpseGory" Variations="0,2,7"/>
+<Actor id="ScientistCorpseGory" Variations="0,2,4,7"/>
 <Actor id="SplatAliveInside"/>
 <Actor id="TerrainObjectCastanarPowerGeneratorDoodad"/>
 <Actor id="TerrainObjectCoolantPipesDoodad" Variations="1"/>
@@ -285,6 +286,7 @@
 <Actor id="DeadPrimalisk"/>
 <Actor id="SnowBlizzard"/>
 <Actor id="DeadQueen"/>
+<Actor id="ZerusTallGrassCluster" Variations="0"/>
 <Actor id="WaterGenerator" Variations="0,1,3,4,5"/>
 <Actor id="WaterGeneratorLarge"/>
 <Actor id="HybridVentShadowCaster"/>
@@ -307,6 +309,7 @@
 <Actor id="Korhal_TarmacSplat" Variations="0,1"/>
 <Actor id="Shadow_Tarmac_Splat" Variations="5,6"/>
 <Actor id="Korhal_Platform_GrimeSplats" Variations="0"/>
+<Actor id="JarbanMinor_BloodSmear" Variations="0"/>
 <Actor id="JarbanMinor_MiningSupplies" Variations="3,4,6,7,8"/>
 <Actor id="DOM_VentTower" Variations="0"/>
 <Actor id="DecalSpace_Baked" Variations="7,18"/>
@@ -324,6 +327,7 @@
 <Actor id="SpacePlatform_Lantern_White" Variations="0"/>
 <Actor id="SpacePlatform_Lantern_White_Blink" Variations="8"/>
 <Actor id="Shakuras_Ramp_Stairs" Variations="2"/>
+<Actor id="Slayn_TallGrassWindy" Variations="5,6,7"/>
 <Actor id="Explosions_Flashes"/>
 <Actor id="Shakuras_PowerCrystal"/>
 <Actor id="Korhal_WallCap" Variations="3"/>
@@ -355,6 +359,7 @@
 <Actor id="Tarsonis_Interior_Decor" Variations="2,10"/>
 <Actor id="Tarsonis_TargetDummy" Variations="3"/>
 <Actor id="Tarsonis_TargetRange" Variations="1,3,5"/>
+<Actor id="Tarsonis_Windows" Variations="0,3"/>
 <Actor id="Tarsonis_WireConduits" Variations="1"/>
 <Actor id="Tarsonis_WireConduitsWall" Variations="2"/>
 <Behavior id="ChargeAdded"/>
