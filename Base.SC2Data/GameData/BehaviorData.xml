@@ -317,7 +317,7 @@
         <InfoFlags index="Hidden" value="1"/>
         <InfoIcon value="Assets\Textures\btn-ability-zerg-corruption_multi.dds"/>
         <EditorCategories value="Race:Terran,AbilityorEffectType:Structures"/>
-        <Modification MoveSpeedMultiplier="2"/>
+        <Modification MoveSpeedMultiplier="2.5"/>
     </CBehaviorBuff>
     <CBehaviorBuff id="TimeBomb">
         <Alignment value="Negative"/>
