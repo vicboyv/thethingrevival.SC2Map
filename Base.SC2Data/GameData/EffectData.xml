@@ -62,6 +62,13 @@
         <EffectArray value="attackspeedbuff"/>
         <EffectArray value="BurstRifleBurst"/>
     </CEffectSet>
+    <CEffectCreateHealer id="Repair">
+        <DrainResourceCostFactor index="Minerals" value="0"/>
+        <DrainResourceCostFactor index="Vespene" value="0"/>
+        <DrainResourceCostFactor index="Terrazine" value="0"/>
+        <DrainResourceCostFactor index="Custom" value="0"/>
+        <RechargeVitalRate value="40"/>
+    </CEffectCreateHealer>
     <CEffectApplyBehavior id="UnburrowSlow">
         <EditorCategories value=""/>
     </CEffectApplyBehavior>
@@ -576,13 +583,6 @@
     <CEffectDamage id="Ram">
         <Amount value="750"/>
     </CEffectDamage>
-    <CEffectCreateHealer id="Repair">
-        <DrainResourceCostFactor index="Minerals" value="0"/>
-        <DrainResourceCostFactor index="Vespene" value="0"/>
-        <DrainResourceCostFactor index="Terrazine" value="0"/>
-        <DrainResourceCostFactor index="Custom" value="0"/>
-        <RechargeVitalRate value="25"/>
-    </CEffectCreateHealer>
     <CEffectDamage id="Sheep">
         <Death value="Disintegrate"/>
     </CEffectDamage>

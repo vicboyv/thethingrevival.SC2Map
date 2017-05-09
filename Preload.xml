@@ -72,7 +72,6 @@
 <Actor id="CastanarCabinet" Variations="0,2,6"/>
 <Actor id="CastanarCage" Variations="1"/>
 <Actor id="CastanarCamera" Variations="3"/>
-<Actor id="CastanarDissectionArm"/>
 <Actor id="CastanarFloodlight" Variations="0,2"/>
 <Actor id="CastanarHoloProjector"/>
 <Actor id="CastanarLightboard" Variations="0,2,3"/>
@@ -117,7 +116,6 @@
 <Actor id="MarSaraMineCart"/>
 <Actor id="MarSaraSkeletonLarge" Variations="0,1"/>
 <Actor id="MarSaraTreeDead" Variations="0,1,2,3,4,5"/>
-<Actor id="MetalWall" Variations="4"/>
 <Actor id="MineralCart" Variations="0,2,3"/>
 <Actor id="NewFolsomEquipment" Variations="0,1,2"/>
 <Actor id="NewFolsomLockers" Variations="1"/>
@@ -187,13 +185,13 @@
 <Actor id="WreckedBattlecruiser"/>
 <Actor id="WreckedCargoTruckCorpse" Variations="0"/>
 <Actor id="XilFossils" Variations="0"/>
+<Actor id="ZergSpireDead" Variations="2"/>
 <Actor id="CargoTruck" Variations="0,1,2"/>
-<Actor id="ColonistSupplies" Variations="0,2,7,8,9"/>
+<Actor id="ColonistSupplies" Variations="0,2,7,9"/>
 <Actor id="ColonistSupplyCrate" Variations="0,1,2,3,4,5,6,7,8"/>
 <Actor id="CreepCloud"/>
 <Actor id="KorhalBuildingDebris" Variations="0,2,4,5,7"/>
 <Actor id="NewFolsomCurtain" Variations="0,1,2"/>
-<Actor id="SpacePlatformCurtain" Variations="3"/>
 <Actor id="FlashingLights"/>
 <Actor id="ValhallaCabinet" Variations="0,3,5"/>
 <Actor id="ValhallaGenerator" Variations="1"/>
@@ -208,6 +206,7 @@
 <Actor id="AvernusMiningChamberDoodad"/>
 <Actor id="Bullhorn" Variations="4"/>
 <Actor id="ColonistCorpse" Variations="2,5,15,16"/>
+<Actor id="DeadTendrils" Variations="1"/>
 <Actor id="GateControlCables" Variations="0,1"/>
 <Actor id="InstallationRoof" Variations="4"/>
 <Actor id="MarineCorpse" Variations="2,3,4,5,8"/>
@@ -304,11 +303,13 @@
 <Actor id="HybridWallPanelTall" Variations="1"/>
 <Actor id="HybridGlassWallPanel" Variations="0,2"/>
 <Actor id="HybridPowerConduit" Variations="0,1,2"/>
-<Actor id="HybridStasisWallTube" Variations="0,3,4,5"/>
+<Actor id="HybridStasisWallTube" Variations="0,3,5"/>
 <Actor id="Blast_Craters" Variations="3"/>
 <Actor id="Korhal_TarmacSplat" Variations="0,1"/>
 <Actor id="Shadow_Tarmac_Splat" Variations="5,6"/>
 <Actor id="Korhal_Platform_GrimeSplats" Variations="0"/>
+<Actor id="CompoundSewers_Trashes" Variations="0,1,2,4,5,6,7"/>
+<Actor id="Elsecaro_Bush4x4" Variations="0,1,2,4"/>
 <Actor id="JarbanMinor_BloodSmear" Variations="0"/>
 <Actor id="JarbanMinor_MiningSupplies" Variations="3,4,6,7,8"/>
 <Actor id="DOM_VentTower" Variations="0"/>
@@ -338,6 +339,7 @@
 <Actor id="Korhal_Platform_TireMarks" Variations="0,2"/>
 <Actor id="Korhal_Platform_SkyshieldEmblem" Variations="2"/>
 <Actor id="DOM_Crate" Variations="1,3"/>
+<Actor id="DOM_BaseMonitors" Variations="0"/>
 <Actor id="DOM_Decals" Variations="0,12"/>
 <Actor id="DOM_GroundTrims" Variations="0,4,6"/>
 <Actor id="DOM_Groundlights" Variations="0"/>
