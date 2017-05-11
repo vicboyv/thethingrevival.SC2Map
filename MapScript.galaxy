@@ -783,7 +783,6 @@ trigger gt_MarinePoints;
 trigger gt_RatingInstance;
 trigger gt_RecordGameSession;
 trigger gt_Initial;
-trigger gt_OpenTutorialinHandleScreen;
 trigger gt_InitialCreation;
 trigger gt_InitialIntro;
 trigger gt_PickSelection;
@@ -9281,35 +9280,6 @@ void gt_Initial_Init () {
 }
 
 //--------------------------------------------------------------------------------------------------
-// Trigger: Open Tutorial in Handle Screen
-//--------------------------------------------------------------------------------------------------
-bool gt_OpenTutorialinHandleScreen_Func (bool testConds, bool runActions) {
-    // Conditions
-    if (testConds) {
-        if (!((DataTableValueExists(true, "HandleScreenTutorialButton") == true))) {
-            return false;
-        }
-    }
-
-    // Actions
-    if (!runActions) {
-        return true;
-    }
-
-    if ((EventDialogControl() == libNtve_gf_ValueFromDataTableDialogItem(true, "HandleScreenTutorialButton"))) {
-        gf_GenerateTutorial(EventPlayer());
-    }
-
-    return true;
-}
-
-//--------------------------------------------------------------------------------------------------
-void gt_OpenTutorialinHandleScreen_Init () {
-    gt_OpenTutorialinHandleScreen = TriggerCreate("gt_OpenTutorialinHandleScreen_Func");
-    TriggerAddEventDialogControl(gt_OpenTutorialinHandleScreen, c_playerAny, c_invalidDialogControlId, c_triggerControlEventTypeClick);
-}
-
-//--------------------------------------------------------------------------------------------------
 // Trigger: Initial Creation
 //--------------------------------------------------------------------------------------------------
 bool gt_InitialCreation_Func (bool testConds, bool runActions) {
@@ -9617,7 +9587,7 @@ bool gt_PickSelection_Func (bool testConds, bool runActions) {
             IntLoopEnd();
         }
         PlayerGroupLoopEnd();
-        libNtve_gf_SetDialogItemTooltip(libNtve_gf_ValueFromDataTableDialogItem(true, "EvacSelection"), (StringToText(("Abstain: " + IntToString(lv_evac[1]))) + StringExternal("Param/Value/AC9CA62D") + StringToText(("Very Short: " + IntToString(lv_evac[2]))) + StringExternal("Param/Value/7B237783") + StringToText(("Short: " + IntToString(lv_evac[3]))) + StringExternal("Param/Value/A4727C44") + StringToText(("Medium: " + IntToString(lv_evac[4]))) + StringExternal("Param/Value/D5FB038D") + StringToText(("Long: " + IntToString(lv_evac[5]))) + StringExternal("Param/Value/F4CFD0A7") + StringToText(("Very Long: " + IntToString(lv_evac[6]))) + StringExternal("Param/Value/C89EBDD8") + StringToText(("Epic: " + IntToString(lv_evac[7])))), PlayerGroupAll());
+        libNtve_gf_SetDialogItemTooltip(libNtve_gf_ValueFromDataTableDialogItem(true, "EvacSelection"), (StringToText(("Abstain: " + IntToString(lv_evac[1]))) + StringExternal("Param/Value/AC9CA62D") + StringToText(("Very Easy:" + IntToString(lv_evac[2]))) + StringExternal("Param/Value/7B237783") + StringToText(("Easy:" + IntToString(lv_evac[3]))) + StringExternal("Param/Value/A4727C44") + StringToText(("Normal:" + IntToString(lv_evac[4]))) + StringExternal("Param/Value/D5FB038D") + StringToText(("Hard:" + IntToString(lv_evac[5]))) + StringExternal("Param/Value/F4CFD0A7") + StringToText(("Very Hard:" + IntToString(lv_evac[6]))) + StringExternal("Param/Value/C89EBDD8") + StringToText(("Extremely Hard:" + IntToString(lv_evac[7])))), PlayerGroupAll());
     }
     return true;
 }
@@ -17969,7 +17939,6 @@ void InitTriggers () {
     gt_RatingInstance_Init();
     gt_RecordGameSession_Init();
     gt_Initial_Init();
-    gt_OpenTutorialinHandleScreen_Init();
     gt_InitialCreation_Init();
     gt_InitialIntro_Init();
     gt_PickSelection_Init();
