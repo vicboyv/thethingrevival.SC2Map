@@ -51,6 +51,12 @@
         <PeriodicPeriodArray value="0.05"/>
         <PeriodicPeriodArray value="0.1"/>
     </CEffectCreatePersistent>
+    <CEffectDamage id="EatGrass">
+        <ValidatorArray value="GrassTarget"/>
+        <EditorCategories value=""/>
+        <ImpactLocation Value="TargetUnit"/>
+        <Flags index="Kill" value="1"/>
+    </CEffectDamage>
     <CEffectSet id="MingunRifle">
         <EditorCategories value=""/>
         <EffectArray value="attackspeedbuff"/>
@@ -62,6 +68,20 @@
         <EffectArray value="attackspeedbuff"/>
         <EffectArray value="BurstRifleBurst"/>
     </CEffectSet>
+    <CEffectApplyForce id="PushBack">
+        <EditorCategories value=""/>
+        <Amount value="20"/>
+    </CEffectApplyForce>
+    <CEffectCreatePersistent id="PushBackPersist">
+        <EditorCategories value=""/>
+        <PeriodCount value="2"/>
+        <PeriodicEffectArray value="PushBackSearch"/>
+        <PeriodicPeriodArray value="0.5"/>
+    </CEffectCreatePersistent>
+    <CEffectEnumArea id="PushBackSearch">
+        <EditorCategories value=""/>
+        <AreaArray Radius="10" Effect="PushBack"/>
+    </CEffectEnumArea>
     <CEffectCreateHealer id="Repair">
         <DrainResourceCostFactor index="Minerals" value="0"/>
         <DrainResourceCostFactor index="Vespene" value="0"/>
@@ -532,7 +552,7 @@
     <CEffectDamage id="InfernalFlameThrower">
         <AttributeBonus index="Light" value="0"/>
         <AttributeBonus index="Armored" value="-2"/>
-        <AttributeBonus index="Biological" value="8"/>
+        <AttributeBonus index="Biological" value="22"/>
         <Amount value="3"/>
     </CEffectDamage>
     <CEffectDamage id="InfestedAbomination">
@@ -630,7 +650,7 @@
     </CEffectApplyBehavior>
     <CEffectDamage id="MeatHookDamage">
         <EditorCategories value=""/>
-        <Amount value="4"/>
+        <Amount value="10"/>
     </CEffectDamage>
     <CEffectDestroyPersistent id="MeatHookDestroyPersistent">
         <EditorCategories value=""/>
@@ -656,6 +676,7 @@
         <PeriodCount value="1"/>
         <PeriodicEffectArray value="MeatHookLaunch"/>
         <PeriodicOffsetArray value="0,-12,0"/>
+        <ValidatorArray value="PathableAndHasVision"/>
     </CEffectCreatePersistent>
     <CEffectLaunchMissile id="MeatHookLaunch">
         <EditorCategories value=""/>
@@ -672,9 +693,9 @@
             <MatchFlags index="Id" value="1"/>
         </Marker>
         <WhichLocation Value="SourceUnit"/>
-        <Flags index="PersistUntilDestroyed" value="1"/>
         <PeriodicEffectArray value="MeatHookSearch"/>
         <PeriodicPeriodArray value="0.0625"/>
+        <PeriodCount value="16"/>
     </CEffectCreatePersistent>
     <CEffectCreatePersistent id="MeatHookPullPersistent">
         <EditorCategories value=""/>
@@ -689,7 +710,7 @@
     <CEffectEnumArea id="MeatHookSearch">
         <EditorCategories value=""/>
         <SearchFilters value="-;Player,Ally,Structure,Item"/>
-        <AreaArray Radius="0.1" Effect="MeatHookImpact"/>
+        <AreaArray Radius="0.3" Effect="MeatHookImpact"/>
         <MaxCount value="1"/>
     </CEffectEnumArea>
 </Catalog>

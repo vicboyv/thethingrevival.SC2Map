@@ -344,6 +344,11 @@
             <Value>0.292</Value>
             <Value>0.293</Value>
             <Value>0.294</Value>
+            <Value>0.295</Value>
+            <Value>0.297</Value>
+            <Value>0.298</Value>
+            <Value>0.302</Value>
+            <Value>0.304</Value>
         </Version>
         <Date>
             <Value>10/15/2012</Value>
@@ -630,7 +635,12 @@
             <Value>4/8/2017</Value>
             <Value>5/1/2017</Value>
             <Value>5/1/2017</Value>
-            <Value>5/9/2017</Value>
+            <Value>6/10/2018</Value>
+            <Value>11/30/2018</Value>
+            <Value>12/1/2018</Value>
+            <Value>12/4/2018</Value>
+            <Value>12/14/2018</Value>
+            <Value>3/22/2019</Value>
         </Date>
         <Notes>
             <Value>1,2</Value>
@@ -917,7 +927,12 @@
             <Value>1076,1077,1078,1079</Value>
             <Value>1080,1081</Value>
             <Value>1082,1083,1084,1085,1086,1087,1088,1089</Value>
+            <Value>1097,1098,1099</Value>
             <Value>1090,1091,1092,1093,1094,1095,1096</Value>
+            <Value>1100,1101,1102,1103,1104</Value>
+            <Value>1105,1106,1107,1108</Value>
+            <Value>1109,1110,1111,1112,1113,1114,1115,1116,1117</Value>
+            <Value>1118</Value>
         </Notes>
     </PatchNote>
     <Preload>

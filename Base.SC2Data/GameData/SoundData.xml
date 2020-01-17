@@ -18,6 +18,10 @@
         <Category value="Music"/>
         <LoopCount value="-1"/>
     </CSound>
+    <CSound id="Cow_What">
+        <Flags index="Ignorable" value="0"/>
+        <Volume value="0.000000,0.000000"/>
+    </CSound>
     <CSound id="Doodad_PortZionCrusherDoodadWorkImpact">
         <AssetArray index="0" File="Assets\Sounds\Uni\Doodads\Doodad_PortZionCrusherDoodadWorkImpact0.wav" Volume="6.000000,6.000000"/>
         <AssetArray index="1" File="Assets\Sounds\Uni\Doodads\Doodad_PortZionCrusherDoodadWorkImpact1.wav" Volume="6.000000,6.000000"/>
@@ -25,7 +29,7 @@
     </CSound>
     <CSound id="JingleBells">
         <EditorCategories value="Race:Neutral"/>
-        <AssetArray File="Christmas Carols - Jingle Bell Rock.mp3" Weight="0" FacialGroup=""/>
+        <AssetArray File="Jingle Bells.ogg" Weight="0" FacialGroup=""/>
         <Flags index="Purgable" value="1"/>
         <Flags index="Stream" value="1"/>
         <Category value="Music"/>
@@ -43,7 +47,7 @@
     </CSound>
     <CSound id="TheThingTheme">
         <EditorCategories value="Race:Neutral"/>
-        <AssetArray File="Music\The Thing Revival Music [Complete].ogg" Weight="0" FacialGroup=""/>
+        <AssetArray File="Assets\Music\ZergSC2-02.ogg" Weight="0" FacialGroup=""/>
         <Flags index="Purgable" value="1"/>
         <Flags index="Stream" value="1"/>
         <Category value="Music"/>

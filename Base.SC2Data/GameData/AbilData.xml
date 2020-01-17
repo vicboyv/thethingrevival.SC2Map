@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Catalog>
+    <CAbilEffectTarget id="EatGrass">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Cost>
+            <Cooldown TimeUse="5"/>
+        </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="EatGrass"/>
+    </CAbilEffectTarget>
     <CAbilEffectTarget id="ThingConsume">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Effect index="0" value="Consume"/>
@@ -7,7 +14,7 @@
             <Charge Link="Abil/Consume"/>
             <Cooldown Link="Abil/Consume" Location="Player" TimeUse="8"/>
         </Cost>
-        <Range value="0.25"/>
+        <Range value="0"/>
         <PrepTime value="2"/>
         <CastIntroTime value="0"/>
         <CastOutroTime value="0"/>
@@ -165,6 +172,7 @@
             <Charge Link="Abil/ToggleFlamethrower"/>
             <Cooldown Link="Yamato" Location="Player" TimeUse="60"/>
         </Cost>
+        <CmdButtonArray index="Execute" DefaultButtonFace="InfestedAbomination2222"/>
     </CAbilEffectInstant>
     <CAbilEffectInstant id="LockDoor2">
         <EditorCategories value="AbilityorEffectType:Units"/>

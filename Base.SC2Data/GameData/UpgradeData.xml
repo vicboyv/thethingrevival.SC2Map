@@ -43,9 +43,8 @@
     </CUpgrade>
     <CUpgrade id="Isthing" parent="Research"/>
     <CUpgrade id="MarineQuickRecovery">
-        <EffectArray Operation="Set" Reference="Behavior,BasicMarineBehavior,Modification.VitalRegenArray[Life]" Value="0.050700"/>
-        <EffectArray Reference="Behavior,BasicMarineBehavior,Modification.VitalRegenMultiplier[Energy]" Value="2"/>
-        <EffectArray Reference="Behavior,BasicMarineBehavior,Modification.VitalRegenMultiplier[Life]" Value="2"/>
+        <EffectArray Operation="Set" Reference="Behavior,BasicMarineBehavior,Modification.VitalRegenMultiplier[Energy]" Value="1.1"/>
+        <EffectArray Operation="Set" Reference="Behavior,BasicMarineBehavior,Modification.VitalRegenMultiplier[Life]" Value="2"/>
         <LeaderAlias value="MarineJuggernaut"/>
         <MaxLevel value="10"/>
     </CUpgrade>

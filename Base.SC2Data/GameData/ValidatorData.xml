@@ -45,6 +45,10 @@
         <Value value="1"/>
         <Behavior value="FummyFireBehavior"/>
     </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitType id="GrassTarget">
+        <ResultFailed value="Error,Unit is not Grass"/>
+        <Value value="Grass"/>
+    </CValidatorUnitType>
     <CValidatorUnitInventoryContainsItem id="HasAbility"/>
     <CValidatorUnitCompareBehaviorCount id="HasNoInfraredGoggles">
         <WhichUnit Value="Origin"/>
@@ -77,11 +81,41 @@
     <CValidatorUnitType id="Isinfected">
         <Value value="Marine2"/>
     </CValidatorUnitType>
+    <CValidatorLocationEnumArea id="MeatHookMarineCheck">
+        <AreaArray Radius="0.3" Validator="Isuninfected"/>
+    </CValidatorLocationEnumArea>
     <CValidatorUnitCompareBehaviorCount id="Noadrenalineused">
         <Compare value="LT"/>
         <Value value="1"/>
         <Behavior value="Adrenlaineused"/>
     </CValidatorUnitCompareBehaviorCount>
+    <CValidatorLocationPathable id="PathableNoStructure">
+        <ResultFailed value="MustTargetWalkableLocation,Structure in the way"/>
+        <Find value="0"/>
+        <Types index="Ground" value="0"/>
+    </CValidatorLocationPathable>
+    <CValidatorCombine id="PathableAndHasVision">
+        <ResultFailed value="CantTargetHallucinations,Terrain Block"/>
+    </CValidatorCombine>
+    <CValidatorCombine id="RiotShield">
+        <ResultFailed value="Error,You can only hold 1 Riot Shield"/>
+        <Type value="And"/>
+        <CombineArray value="RiotShield1"/>
+        <CombineArray value="RiotShieldUnitType"/>
+    </CValidatorCombine>
+    <CValidatorUnitCompareBehaviorCount id="RiotShield1">
+        <ResultFailed value="Error,You can only hold 1 Riot Shield"/>
+        <WhichUnit Value="Caster"/>
+        <Behavior value="RiotShield"/>
+    </CValidatorUnitCompareBehaviorCount>
+    <CValidatorUnitType id="RiotShieldUnitType">
+        <Value value="RiotShield"/>
+        <Find value="0"/>
+    </CValidatorUnitType>
+    <CValidatorLocationEnumArea id="MeatHookThingNearby">
+        <WhichLocation Value="SourceUnit"/>
+        <AreaArray Radius="1" Validator="Thing"/>
+    </CValidatorLocationEnumArea>
     <CValidatorLocationEnumArea id="Thingisnotaround">
         <AreaArray Radius="8" Validator="Thing"/>
         <AreaArray Radius="1" Validator="Thing2"/>
@@ -231,6 +265,9 @@
         <Value value="3"/>
         <Behavior value="OxygenAura"/>
     </CValidatorUnitCompareBehaviorCount>
+    <CValidatorLocationEnumArea id="UninfectedNearbyPoint">
+        <AreaArray Radius="0.3" Validator="Isuninfected"/>
+    </CValidatorLocationEnumArea>
     <CValidatorUnitCompareBehaviorCount id="noflamethrower">
         <Behavior value="HasFlameThrower"/>
     </CValidatorUnitCompareBehaviorCount>
@@ -239,8 +276,5 @@
         <Compare value="GT"/>
         <Range value="1"/>
     </CValidatorLocationCompareRange>
-    <CValidatorUnitFilters id="SourceNotDead">
-        <WhichUnit Value="Source"/>
-        <Filters value="-;Dead"/>
-    </CValidatorUnitFilters>
+    <CValidatorUnitFilters id="SourceNotDead"/>
 </Catalog>

@@ -18,6 +18,9 @@
         <AlertIcon value="Assets\Textures\btn-ability-zerg-corruption-color.dds"/>
         <HotkeyAlias value="ConsumeDNA"/>
     </CButton>
+    <CButton id="EatGrass">
+        <Icon value="Assets\Textures\dynamic_grass_elsecaro_long_diff.dds"/>
+    </CButton>
     <CButton id="LastConsumed">
         <Icon value="Assets\Textures\btn-ability-terran-setrallypoint.dds"/>
         <AlertIcon value="Assets\Textures\btn-ability-terran-setrallypoint.dds"/>
@@ -105,7 +108,7 @@
         <EditorCategories value="Race:Zerg"/>
     </CButton>
     <CButton id="InfestedAbomination22">
-        <Icon value="Assets\Textures\btn-unit-zerg-corruptedmass.dds"/>
+        <Icon value="Assets\Textures\btn-unit-terran-marine.dds"/>
         <AlertIcon value="Assets\Textures\btn-unit-zerg-corruptedmass.dds"/>
         <EditorCategories value="Race:Zerg"/>
     </CButton>

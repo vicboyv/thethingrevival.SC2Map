@@ -1,5 +1,62 @@
 <?xml version="1.0" encoding="us-ascii"?>
 <Catalog>
+    <!--CUnit id="DefenseDroid">-->
+    <!--        <DeathRevealRadius value="3"/>-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <LifeStart value="45"/>-->
+    <!--        <LifeMax value="45"/>-->
+    <!--        <LifeArmorName value="Unit/LifeArmorName/ProtossArmor"/>-->
+    <!--        <ShieldsStart value="45"/>-->
+    <!--        <ShieldsMax value="45"/>-->
+    <!--        <ShieldRegenRate value="2"/>-->
+    <!--        <ShieldArmorName value="Unit/ShieldArmorName/ProtossPlasmaShields"/>-->
+    <!--        <Speed value="4.25"/>-->
+    <!--        <Acceleration value="3.25"/>-->
+    <!--        <LateralAcceleration value="46"/>-->
+    <!--        <Radius value="0.375"/>-->
+    <!--        <SeparationRadius value="0.375"/>-->
+    <!--        <InnerRadius value="0.375"/>-->
+    <!--        <CargoSize value="1"/>-->
+    <!--        <SubgroupPriority value="15"/>-->
+    <!--        <MinimapRadius value="0.375"/>-->
+    <!--        <FlagArray index="PreventDestroy" value="1"/>-->
+    <!--        <FlagArray index="UseLineOfSight" value="1"/>-->
+    <!--        <FlagArray index="ArmySelect" value="1"/>-->
+    <!--        <PlaneArray index="Ground" value="1"/>-->
+    <!--        <Collide index="Ground" value="1"/>-->
+    <!--        <Collide index="ForceField" value="1"/>-->
+    <!--        <Sight value="8"/>-->
+    <!--        <AbilArray Link="stop"/>-->
+    <!--        <AbilArray Link="attack"/>-->
+    <!--        <AbilArray Link="move"/>-->
+    <!--        <CardLayouts>-->
+    <!--            <LayoutButtons Face="Move" Type="AbilCmd" AbilCmd="move,Move" Row="0" Column="0"/>-->
+    <!--            <LayoutButtons Face="Stop" Type="AbilCmd" AbilCmd="stop,Stop" Row="0" Column="1"/>-->
+    <!--            <LayoutButtons Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>-->
+    <!--            <LayoutButtons Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="4"/>-->
+    <!--            <LayoutButtons Face="MovePatrol" Type="AbilCmd" AbilCmd="move,Patrol" Row="0" Column="3"/>-->
+    <!--        </CardLayouts>-->
+    <!--        <Attributes index="Light" value="1"/>-->
+    <!--        <Attributes index="Mechanical" value="1"/>-->
+    <!--        <Attributes index="Hover" value="1"/>-->
+    <!--        <EditorCategories value="ObjectType:Unit,ObjectFamily:Melee"/>-->
+    <!--        <GlossaryCategory value="Unit/Category/ProtossUnits"/>-->
+    <!--        <HotkeyCategory value="Unit/Category/ProtossUnits"/>-->
+    <!--        <StationaryTurningRate value="1499.9414"/>-->
+    <!--        <TurningRate value="1499.9414"/>-->
+    <!--        <WeaponArray Link="DefenseDroidWeapon"/>-->
+    <!--        <ShieldRegenDelay value="10"/>-->
+    <!--        <CostCategory value="Army"/>-->
+    <!--        <AttackTargetPriority value="20"/>-->
+    <!--    </CUnit>-->
+    <!--    <CUnit id="DefenseDroidWeapon" parent="MISSILE">-->
+    <!--        <Race value="Prot"/>-->
+    <!--        <EditorCategories value="ObjectType:Projectile,ObjectFamily:Melee"/>-->
+    <!--    </CUnit-->
+    <CUnit id="Battlecruiser">
+        <Speed value="10"/>
+        <Sight value="32"/>
+    </CUnit>
     <CUnit id="DestructibleGateStraightHorizontal">
         <LifeStart value="500"/>
         <LifeMax value="500"/>
@@ -94,6 +151,11 @@
         <CostResource index="Minerals" value="10"/>
         <EditorCategories value="ObjectType:Item,ObjectFamily:Campaign"/>
     </CUnit>
+    <CUnit id="ForceField">
+        <FlagArray index="NoDraw" value="1"/>
+        <AbilArray index="0" removed="1"/>
+        <Radius value="4"/>
+    </CUnit>
     <CUnit id="FusionCore">
         <Attributes index="Armored" value="0"/>
         <Attributes index="Mechanical" value="0"/>
@@ -123,6 +185,14 @@
         <Footprint value="Footprint2x2Underground"/>
         <LifeArmor value="0"/>
     </CUnit>
+    <CUnit id="Grass">
+        <FlagArray index="Unselectable" value="1"/>
+        <FlagArray index="Invulnerable" value="1"/>
+        <LifeStart value="999"/>
+        <LifeMax value="999"/>
+        <EditorCategories value=""/>
+        <MinimapRadius value="0"/>
+    </CUnit>
     <CUnit id="Grenade" parent="ITEM">
         <FlagArray index="Pawnable" value="1"/>
         <Height value="0.1"/>
@@ -132,36 +202,10 @@
     <CUnit id="Corpse" parent="ITEM">
         <EditorCategories value="ObjectType:Item,ObjectFamily:Campaign"/>
     </CUnit>
-    <CUnit id="InfraredGoggles" parent="ITEM">
-        <Race value="Terr"/>
-        <EditorCategories value=""/>
-        <Item value="Radio2"/>
-    </CUnit>
-    <CUnit id="Molotov" parent="ITEM">
-        <FlagArray index="Pawnable" value="1"/>
-        <Height value="0.5"/>
-        <CostResource index="Minerals" value="10"/>
-        <EditorCategories value="ObjectType:Item,ObjectFamily:Campaign"/>
-        <BehaviorArray Link="MolotovClickAid"/>
-    </CUnit>
-    <CUnit id="HiveMindEmulator">
-        <FogVisibility value="Visible"/>
-        <Attributes index="Armored" value="0"/>
-        <Attributes index="Mechanical" value="0"/>
-        <Attributes index="Summoned" value="1"/>
-        <LifeStart value="500"/>
-        <LifeMax value="500"/>
-        <EnergyStart value="0"/>
-        <EnergyMax value="0"/>
-        <EnergyRegenRate value="0"/>
-        <AbilArray index="1" removed="1"/>
-        <BehaviorArray index="0" removed="1"/>
-        <BehaviorArray index="1" removed="1"/>
-        <MinimapRadius value="1.5"/>
-    </CUnit>
     <CUnit id="InfestedAbomination">
         <LifeStart value="180"/>
         <LifeMax value="180"/>
+        <LifeArmor value="0"/>
         <LifeRegenDelay value="7.5"/>
         <LifeRegenRate value="1.5"/>
         <EnergyStart value="800"/>
@@ -200,7 +244,7 @@
             <LayoutButtons index="5" Face="InfestedAbomination22" Type="Submenu" AbilCmd="move,HoldPos" SubmenuCardId="0003" SubmenuFullSubCmdValidation="1"/>
             <LayoutButtons index="6" Face="Throw" Type="AbilCmd" AbilCmd="Throw,Execute" Row="2" Column="0"/>
             <LayoutButtons Face="PrimalConsume" Type="AbilCmd" AbilCmd="ThingConsume,Execute" Row="1" Column="0"/>
-            <LayoutButtons Face="MeatHook" Type="AbilCmd" AbilCmd="MeatHook,Execute" Row="2" Column="2"/>
+            <LayoutButtons Face="MeatHook" Type="AbilCmd" AbilCmd="MeatHook,Execute" Row="2" Column="1"/>
         </CardLayouts>
         <CardLayouts CardId="0002">
             <LayoutButtons>
@@ -242,18 +286,20 @@
                 <Row value="0"/>
                 <Column value="0"/>
             </LayoutButtons>
-            <LayoutButtons Face="PreviousColor" Type="AbilCmd" AbilCmd="stop,Dance" Row="0" Column="1"/>
+            <LayoutButtons Face="PreviousColor" Type="AbilCmd" AbilCmd="stop,HoldFire" Row="0" Column="1"/>
             <LayoutButtons Face="LastConsumed" Type="AbilCmd" AbilCmd="stop,HoldFire" Row="0" Column="2"/>
-            <LayoutButtons Face="OriginalColor" Type="AbilCmd" AbilCmd="stop,Cheer" Row="0" Column="3"/>
+            <LayoutButtons Face="OriginalColor" Type="AbilCmd" AbilCmd="stop,HoldFire" Row="0" Column="3"/>
             <LayoutButtons Face="Cancel" Type="CancelSubmenu" Row="2" Column="4"/>
         </CardLayouts>
         <MinimapRadius value="0"/>
-        <LifeArmor value="0"/>
+        <Attributes index="Armored" value="0"/>
+        <Attributes index="Massive" value="0"/>
     </CUnit>
     <CUnit id="InfestedAbominationBurrowed">
         <FlagArray index="Unselectable" value="1"/>
         <LifeStart value="300"/>
         <LifeMax value="300"/>
+        <LifeArmor value="0"/>
         <LifeRegenDelay value="0.5"/>
         <LifeRegenRate value="1.5"/>
         <EnergyStart value="800"/>
@@ -278,7 +324,33 @@
             <LayoutButtons Face="BurrowedCharge" Type="AbilCmd" AbilCmd="ThingBurrowCharge,Execute" Row="2" Column="0"/>
         </CardLayouts>
         <Radius value="0.375"/>
-        <LifeArmor value="0"/>
+    </CUnit>
+    <CUnit id="InfraredGoggles" parent="ITEM">
+        <Race value="Terr"/>
+        <EditorCategories value=""/>
+        <Item value="Radio2"/>
+    </CUnit>
+    <CUnit id="Molotov" parent="ITEM">
+        <FlagArray index="Pawnable" value="1"/>
+        <Height value="0.5"/>
+        <CostResource index="Minerals" value="10"/>
+        <EditorCategories value="ObjectType:Item,ObjectFamily:Campaign"/>
+        <BehaviorArray Link="MolotovClickAid"/>
+    </CUnit>
+    <CUnit id="HiveMindEmulator">
+        <FogVisibility value="Visible"/>
+        <Attributes index="Armored" value="0"/>
+        <Attributes index="Mechanical" value="0"/>
+        <Attributes index="Summoned" value="1"/>
+        <LifeStart value="500"/>
+        <LifeMax value="500"/>
+        <EnergyStart value="0"/>
+        <EnergyMax value="0"/>
+        <EnergyRegenRate value="0"/>
+        <AbilArray index="1" removed="1"/>
+        <BehaviorArray index="0" removed="1"/>
+        <BehaviorArray index="1" removed="1"/>
+        <MinimapRadius value="1.5"/>
     </CUnit>
     <CUnit id="Marine">
         <FlagArray index="Uncursorable" value="1"/>
@@ -304,10 +376,10 @@
         <BehaviorArray Link="TheThingSensory2"/>
         <BehaviorArray Link="Oxygendamage"/>
         <CardLayouts index="0">
-            <LayoutButtons index="2" Face="Attack" AbilCmd="attack,Execute" Column="3"/>
-            <LayoutButtons index="3" Face="Stim" AbilCmd="Stimpack,Execute" Row="2" Column="0"/>
-            <LayoutButtons index="4" Face="InfestedAbomination2222" AbilCmd="LockDoor,Execute" Row="1" Column="0"/>
-            <LayoutButtons index="5" Face="MoveHoldPosition" AbilCmd="move,HoldPos" Row="0" Column="2"/>
+            <LayoutButtons index="2" Face="Attack" Type="AbilCmd" AbilCmd="attack,Execute" Row="0" Column="3"/>
+            <LayoutButtons index="3" Face="Stim" Type="AbilCmd" AbilCmd="Stimpack,Execute" Row="2" Column="0"/>
+            <LayoutButtons index="4" Face="InfestedAbomination2222" Type="AbilCmd" AbilCmd="LockDoor,Execute" Row="1" Column="0"/>
+            <LayoutButtons index="5" Face="MoveHoldPosition" Type="AbilCmd" AbilCmd="move,HoldPos" Row="0" Column="2"/>
             <LayoutButtons Face="ActivateFlamethrower" Type="AbilCmd" AbilCmd="ToggleFlamethrower,On" Row="1" Column="1"/>
             <LayoutButtons Face="DeactivateFlamethrower" Type="AbilCmd" AbilCmd="ToggleFlamethrower,Off" Row="1" Column="1"/>
             <LayoutButtons Face="QuickDrop" Type="AbilCmd" AbilCmd="LockDoor2,Execute" Row="2" Column="1"/>
@@ -316,6 +388,10 @@
     </CUnit>
     <CUnit id="Marine2" parent="Marine">
         <Name value="Unit/Name/Marine2"/>
+        <FlagArray index="Unhighlightable" value="0"/>
+        <LifeStart value="60"/>
+        <LifeMax value="60"/>
+        <LifeRegenDelay value="8"/>
         <LifeRegenRate value="0.1992"/>
         <AbilArray Link="LockDoor"/>
         <AbilArray Link="LockDoor2"/>
@@ -325,6 +401,7 @@
         <AbilArray Link="Wrenchhealdoor"/>
         <AbilArray Link="ThrowMolotov"/>
         <AbilArray Link="Burn"/>
+        <AbilArray Link="EatGrass"/>
         <BehaviorArray index="0" Link="BasicMarineBehavior"/>
         <BehaviorArray index="1" Link="TheThingSensory2"/>
         <BehaviorArray Link="Flashlight"/>
@@ -358,15 +435,27 @@
                 <Column value="4"/>
             </LayoutButtons>
         </CardLayouts>
-        <LifeRegenDelay value="8"/>
-        <FlagArray index="Unhighlightable" value="0"/>
         <MinimapRadius value="0"/>
-        <LifeStart value="60"/>
-        <LifeMax value="60"/>
     </CUnit>
     <CUnit id="Marine3" parent="Marine">
         <Name value="Unit/Name/Marine3"/>
+        <FlagArray index="Unhighlightable" value="0"/>
+        <LifeStart value="60"/>
+        <LifeMax value="60"/>
+        <LifeRegenDelay value="8"/>
         <LifeRegenRate value="0.1992"/>
+        <AbilArray Link="LockDoor"/>
+        <AbilArray Link="LockDoor2"/>
+        <AbilArray Link="ToggleFlamethrower"/>
+        <AbilArray Link="PsiStorm2"/>
+        <AbilArray Link="Wrenchhealdoor"/>
+        <AbilArray Link="ThrowMolotov"/>
+        <AbilArray Link="Burn"/>
+        <BehaviorArray index="1" Link="Flashlight"/>
+        <BehaviorArray Link="ReducedVision"/>
+        <BehaviorArray Link="SandstormEffect"/>
+        <BehaviorArray Link="ConsumeBurnDisrupt"/>
+        <BehaviorArray Link="Oxygen"/>
         <CardLayouts index="0">
             <LayoutButtons Face="DeactivateFlamethrower" Type="AbilCmd" AbilCmd="ToggleFlamethrower,Off" Row="1" Column="1"/>
             <LayoutButtons Face="ActivateFlamethrower" Type="AbilCmd" AbilCmd="ToggleFlamethrower,On" Row="1" Column="1"/>
@@ -392,23 +481,7 @@
                 <Column value="4"/>
             </LayoutButtons>
         </CardLayouts>
-        <AbilArray Link="LockDoor"/>
-        <AbilArray Link="LockDoor2"/>
-        <AbilArray Link="ToggleFlamethrower"/>
-        <AbilArray Link="PsiStorm2"/>
-        <AbilArray Link="Wrenchhealdoor"/>
-        <AbilArray Link="ThrowMolotov"/>
-        <AbilArray Link="Burn"/>
-        <BehaviorArray index="1" Link="Flashlight"/>
-        <BehaviorArray Link="ReducedVision"/>
-        <BehaviorArray Link="SandstormEffect"/>
-        <BehaviorArray Link="ConsumeBurnDisrupt"/>
-        <BehaviorArray Link="Oxygen"/>
-        <LifeRegenDelay value="8"/>
-        <FlagArray index="Unhighlightable" value="0"/>
         <MinimapRadius value="0"/>
-        <LifeStart value="60"/>
-        <LifeMax value="60"/>
     </CUnit>
     <CUnit id="Medkit" parent="ITEM">
         <EditorCategories value="ObjectType:Item,ObjectFamily:Campaign"/>

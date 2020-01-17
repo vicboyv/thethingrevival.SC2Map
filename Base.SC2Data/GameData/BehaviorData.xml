@@ -227,6 +227,12 @@
         <TimeScaleSource Value="Global"/>
         <Duration value="0.5417"/>
     </CBehaviorBuff>
+    <CBehaviorBuff id="PushBackPeriodic">
+        <EditorCategories value="AbilityorEffectType:Units"/>
+        <Duration value="1"/>
+        <Period value="0.5"/>
+        <PeriodicEffect value="PushBackPersist"/>
+    </CBehaviorBuff>
     <CBehaviorBuff id="ReducedVision">
         <EditorCategories value="AbilityorEffectType:Units"/>
         <Modification SightMaximum="6.5"/>
